@@ -6,9 +6,13 @@
 
 
 ## Some ScreenShots of our App
-![]('/../images/1.png')
-![]('/../images/2.png')
-![]('/../images/3.png')
-![]('/../images/4.png')
-![]('/../images/5.png')
-![]('/../images/6.png')
+<img src="images/1.png" width="300" height="500">
+<img src="images/6.png" width="300" height="500">
+<br>
+<img src="images/2.png" width="300">
+<img src="images/3.png" width="300">
+<img src="images/4.png" width="300" height="500">
+<img src="images/5.png" width="300" height="500">
+
+
+
