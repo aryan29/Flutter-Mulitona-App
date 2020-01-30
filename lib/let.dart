@@ -21,6 +21,7 @@ class _Screen2 extends State<Screen2> {
         .whenComplete(() {
       setState(() {
         img = img;
+        mytext = "";
       });
     });
     String baseimg = base64Encode(img.readAsBytesSync());
@@ -69,7 +70,10 @@ class _Screen2 extends State<Screen2> {
                       height: 400,
                       width: MediaQuery.of(context).size.width,
                       child: (img == null)
-                          ? Text("Image Not Uploaded",textAlign: TextAlign.center,)
+                          ? Text(
+                              "Image Not Uploaded",
+                              textAlign: TextAlign.center,
+                            )
                           : Image.file(img)),
                 ),
                 Row(
@@ -77,9 +81,8 @@ class _Screen2 extends State<Screen2> {
                   children: <Widget>[
                     Container(
                         margin: EdgeInsets.all(10),
-                        width: MediaQuery.of(context).size.width*0.8,
-                        decoration:
-                            BoxDecoration(color: Colors.lightBlue[50]),
+                        width: MediaQuery.of(context).size.width * 0.8,
+                        decoration: BoxDecoration(color: Colors.lightBlue[50]),
                         child: Text(mytext))
                   ],
                 ),
@@ -92,10 +95,9 @@ class _Screen2 extends State<Screen2> {
                       label: Text(buxt),
                       onPressed: () {
                         myhttp();
-                                                setState(() {
+                        setState(() {
                           buxt = "Uploading....";
                         });
-
                       },
                     )
                   ],

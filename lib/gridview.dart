@@ -8,7 +8,7 @@ class MyGridView {
     if (name == "Screen2")
       return Icon(FontAwesomeIcons.photoVideo,size:70);
     else
-      return Icon(FontAwesomeIcons.speakerDeck,size:70);
+      return Icon(FontAwesomeIcons.fileAudio,size:70);
   }
 
   GestureDetector getStructuredGridCell(name, image, context) {
