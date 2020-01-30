@@ -6,7 +6,7 @@
 
 
 ## Some ScreenShots of our App
-<img src="images/1.png" width="300" height="500">
+![](images/1.png){:height="700px" width="400px"}
 <img src="images/6.png" width="300" height="500">
 <br>
 <img src="images/2.png" width="300">
